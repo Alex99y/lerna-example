@@ -25,6 +25,6 @@ jobs:
         run: yarn test
 
       - name: Publish new version to NPM
-      - run: npx lerna publish from-package --no-git-tag-version --no-push --yes --loglevel verbose
+        run: npx lerna publish from-package --no-git-tag-version --no-push --yes --loglevel verbose
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
