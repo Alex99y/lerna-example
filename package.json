@@ -1,0 +1,21 @@
+{
+  "name": "lerna-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Alex99y/lerna-example.git",
+  "author": "Alexander",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "test": "lerna run test"
+  },
+  "keywords": [
+    "lerna",
+    "github",
+    "actions"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": ["packages/*"]
+}

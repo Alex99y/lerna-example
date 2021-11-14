@@ -1,0 +1,3 @@
+const test = require('./index')
+
+const address = "W2TVRKTHYB7HDVUGI6E6AVAXDGFT3RJT3XZGB2TVOT53TAISPBO2F5R3HE"
