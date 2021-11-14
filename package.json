@@ -19,6 +19,7 @@
   },
   "workspaces": ["packages/*"],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   }
 }
