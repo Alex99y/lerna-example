@@ -1,13 +1,13 @@
 {
-  "name": "foo_opp",
-  "version": "1.0.4",
+  "name": "alex-bar-opp",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "Apache-2.0",
   "scripts": {
     "test": "mocha test.js"
   },
   "dependencies": {
-    "algosdk": "^1.12.0"
+    "crypto": "^1.0.1"
   },
   "devDependencies": {
     "chai": "^4.3.4",
@@ -15,5 +15,10 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "homepage": "https://github.com/Alex99y/lerna-example",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Alex99y/lerna-example.git"
   }
 }
