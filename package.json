@@ -5,7 +5,7 @@
   "repository": "git@github.com:Alex99y/lerna-example.git",
   "author": "Alexander",
   "license": "Apache-2.0",
-  "private": false,
+  "private": true,
   "scripts": {
     "test": "lerna run test"
   },

@@ -1,7 +1,7 @@
 const crypto = require("crypto")
 
 /**
- * 
+ * @description Get sha256 of a message
  * @param {string} message 
  * @returns {string} Return sha256 hash
  */
