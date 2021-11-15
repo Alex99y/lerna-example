@@ -19,10 +19,10 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install Deps
-        run: yarn
+        run: npx lerna bootstrap
 
       - name: Test
-        run: yarn test
+        run: npx lerna run test
 
       - name: Publish new version to NPM
         run: npx lerna publish from-package --no-git-tag-version --no-push --yes --loglevel verbose --no-verify-access
