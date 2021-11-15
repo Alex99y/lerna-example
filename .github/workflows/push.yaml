@@ -7,6 +7,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Remove local config
+        run: rm .npmrc
+
       - uses: actions/checkout@v2
 
       - name: Use Node.js
@@ -16,8 +19,6 @@ jobs:
 
       - name: Install Deps
         run: yarn
-        env:
-          NODE_AUTH_TOKEN: ""
 
       - name: Test
         run: yarn test
